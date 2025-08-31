@@ -51,3 +51,5 @@ Self-Attention = Q=K=V from the same sequence → token attends to itself + othe
 Scaled Dot-Product = stabilizes learning by normalizing dot products.
 
 Multi-Head Attention = multiple attention “perspectives” → richer context.
+
+![alt text](image-2.png)
