@@ -41,35 +41,3 @@ This helps gradient flow and prevents vanishing gradients.
 Think: “don’t throw away original info, just enrich it.”
 
 Then LayerNorm is applied for stability (normalizes across features).
-
-4. Feed Forward Network (FFN)
-
-Each token embedding goes through a position-wise MLP (two linear layers with ReLU/GELU).
-
-Same FFN is applied to each token independently.
-
-Purpose: add non-linearity and let the model learn more abstract features (like motifs → biological meaning).
-
-5. Residual + Layer Normalization (Again)
-
-Same idea as before: output of FFN is added back to its input (residual) and normalized.
-
-🔹 6. Stack of N Encoders (DNABERT → 6 Blocks)
-
-Each block repeats (Self-Attention → AddNorm → FFN → AddNorm).
-
-Why 6?
-
-Deeper = more expressive, but also more expensive.
-
-For DNA, long sequences mean very high memory cost.
-
-6 layers = sweet spot (balance between performance & GPU feasibility).
-
-Input Embedding + Positional Encoding
-↓
-Multi-Head Self Attention
-↓ (Add & Norm)
-Feed-Forward Network
-↓ (Add & Norm)
-Output → next encoder

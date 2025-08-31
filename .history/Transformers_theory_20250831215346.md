@@ -65,11 +65,3 @@ Deeper = more expressive, but also more expensive.
 For DNA, long sequences mean very high memory cost.
 
 6 layers = sweet spot (balance between performance & GPU feasibility).
-
-Input Embedding + Positional Encoding
-↓
-Multi-Head Self Attention
-↓ (Add & Norm)
-Feed-Forward Network
-↓ (Add & Norm)
-Output → next encoder
