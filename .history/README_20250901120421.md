@@ -1,0 +1,13 @@
+## Summary of Contents
+
+  - Explains the concept of positional encoding, its importance in transformer models, and how it enables models to understand word order in sequences.
+  - Related markdown files: `Attention_Theory.md`, `Positional_Encoding.md`, `Transformers_theory.md`
+ - **Theoretical Part:**
+   - Explains the concept of positional encoding, its importance in transformer models, and how it enables models to understand word order in sequences.
+   - Related markdown files: `markdown/Attention_Theory.md`, `markdown/Positional_Encoding.md`, `markdown/Transformers_theory.md`
+  - Example code for fine-tuning a BERT model using Hugging Face's Transformers library, showing how positional encoding is applied in real NLP tasks.
+
+ - 📒 **notebooks/Positionaling_Encoding.ipynb**: Step-by-step code and explanations for implementing and visualizing positional encodings.
+ (Optional) Libraries: numpy, matplotlib
+ MIT
+ Made with ❤️ by [angad2803](https://github.com/angad2803)

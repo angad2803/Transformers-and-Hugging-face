@@ -8,7 +8,7 @@ Same words, but meaning depends on word order.
 
 So we need a way to inject position information into embeddings.
 
-![alt text](image-3.png)
+![alt text](../images/image-3.png)
 
 ## What "Attention is All You Need" Did
 

@@ -15,7 +15,7 @@ Keys (K): Labels that describe what each token has (like tags).
 
 Values (V): The actual content to be retrieved.
 
-![alt text](image.png)
+![alt text](../images/image.png)
 
 ## Self Attention
 
@@ -38,7 +38,7 @@ So self-attention = contextualizing each token with respect to the whole sequenc
 
 ## Multi-Head Attention
 
-![alt text](image-1.png)
+![alt text](../images/image-1.png)
 
 self explanatory by the name , crave for different data and relationships within the data
 
@@ -52,4 +52,4 @@ Scaled Dot-Product = stabilizes learning by normalizing dot products.
 
 Multi-Head Attention = multiple attention “perspectives” → richer context.
 
-![alt text](image-2.png)
+![alt text](../images/image-2.png)
